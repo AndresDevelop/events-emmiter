@@ -1,0 +1,20 @@
+{
+  "name": "higlobe-test",
+  "version": "1.0.0",
+  "description": "Events",
+  "main": "index.ts",
+  "scripts": {
+    "compile": "npx tsc",
+    "run": "node index.js",
+    "test": "vitest",
+    "test:ui": "vitest --ui"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@vitest/ui": "^0.29.2",
+    "jsdom": "^21.1.0",
+    "typescript": "^4.9.5",
+    "vitest": "^0.29.2"
+  }
+}
